@@ -21,7 +21,7 @@ jobs:
     outputs:
       script-file: ${{ steps.publish.outputs.script-file }} 
     steps:
-      - name: Get code
+      - name: Get code fast
         uses: actions/checkout@v3
       - name: cache dependencies
         uses: actions/cache@v3
